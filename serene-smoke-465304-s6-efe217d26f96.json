@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "serene-smoke-465304-s6",
+  "private_key_id": "efe217d26f96c479036dc617e37eb3eca22b5215",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqM3/SEWAEhPsz\nGlWKbEKCbTDeRn1RUtM2UsHF016MeJFkfWrIMLNRhiTHOD+Th+pkxMAGEZv7mI61\nksavQPqYjrliyTaZ2oMpCelUILiXvqqgtcbMvFXkzN4c0mVc0/MTOxUK0JG1VVXu\nJJpHqBno4i8uimJ6Hhz2WOdrK0kZrZGjUuIAwlXb60SxCWqbexnfvbRuylkM3nVb\nkizS4yTk5VagGXH2k9OHZ6MSA3tM2ZHUp5ltYUyEu5Il549lKaixBH7L+LYXJZS3\nkmSNKWN3DEYeFQ2uoC/dKem9oLwxivuuQuxEb51z+yYHSaUallei9H+xKiyfX3Me\nYSNpSsi9AgMBAAECggEAC5Km4IZhhgBYzrFXgasGaehTLobFr9YdTUNOFudEm/HF\n/EdyD4MOnlhFsrogMIx8VpyLBgUEGy5ul1AP0tjTPhshf3ysPSsYSGqt6Xq0GOiH\nbf50mKhxtE+hBrETrVhhqqJ8Asxw+LVNu3yhQbmsN7z+Qk1GKh5XQwG2jDK/eYLK\nrfNsZq8Xt0sKtLn0O77Y6IHkRCrB1gVcrQAYCTbKZfSrI5RQIUGBKbocB4BTDIQY\nRDEZnVG6KDquPfqbtT+K92WIX8r2f5WRNXbaj0J7OfW3IXnKFzAPU/gZkD/qqUqt\nP61bBPww5kn9ZeJUb3arbTJZf5RoJKqkpN495y6I7QKBgQDmsTL1Yo4sV581er0c\nA1h5nXCpeeXjXex84VIxZH07u0eT5H0JEfPYU8fKiPksyG7D0J96DTgPUIL4ehRT\nH0Aw/Y+jIKN70K3DSv754vsOvScBvDY3/o45V932gvqAHyYMlcYDfJA8HkBsxZ+i\n4TgW9Ge+gJCv6oB+ZiByVmzmEwKBgQC833Wsi7YqyA3DR3LYcN7hU8bSm7J9wBZ6\nok3wn/OE/8095hLWnuGKNgWFGN6u+1Ce9fhqeHn44LZiagtSnf0IlqV1969bv16T\nZsItkWgy/YPpEyvUGoBTVQQHbkR/ZoZWcoUwENHLbOMmjYuuRRfQ8QqkDmaDHQ86\nmsnVVWOv7wKBgD1DOYEo1xC3hDQzkBzsVoaVZOHc2Uv0GWVggO9U/Fzscym3N+08\ns0Dzns8OaP2XjLK7qF5FPGn0u5M4+ETKu8VG0OpFNKUg2cRPGj9KI9naKY2wacWc\n+DAKQYvBZLy5iOU2sQsj/Tm53uoD4Uzj+n0+En7orYPKBq2KeXtjsC+5AoGAVF8O\nVhHjQqEzZLSaHQ3uwoGGI7bhuUMBx66RWphZVGRg7vHEIJPA9NjFBnvhnhEuJpSC\ncC15bzASyUvN2w4wZpHFQDlw4G9QdFBHFcwK3BxbvNaPkaR1BsTHk/oyJydJg3yM\n+rfIwDLYFfTNHQBIb1H+CuNT7+YfU3KqDt6iNYkCgYADsz/ryFKRxUajSYX6oyYp\n/lNJJPDrCzd5LhJ4fccr4N/dnQRtrgmpxoRSn2KYMJA1t8t/P9MoBJNmO16FYJ0U\nG2uP1PoRUf5uiAuN2Y+ijOSmBrPuP5O8dehPFTmjCOIhcjW7DEdmD+r994UnXiwZ\nx6tglsT8pDJKlmvvQO+GUg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "web-tb@serene-smoke-465304-s6.iam.gserviceaccount.com",
+  "client_id": "113271201310432669801",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/web-tb%40serene-smoke-465304-s6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

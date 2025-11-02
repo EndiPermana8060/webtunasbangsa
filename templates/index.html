@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yayasan Cahaya Nusantara</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <div class="bg-animation"></div>
+
+  <!-- HEADER: tambahkan menu Pendaftaran -->
+  <header>
+    <div class="logo-container">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo Yayasan" class="logo">
+      <h1 class="yayasan-name">Yayasan Sinar Tunas Bakti Bangsa</h1>
+    </div>
+    
+    <!-- Hamburger Menu Button -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#visi">Visi & Misi</a></li>
+        <li><a href="#makna">Filosofi Logo</a></li>
+        <li><a href="#berita">Blog & Artikel</a></li>
+        <li><a href="#kegiatan">Kegiatan</a></li>
+        <li><a href="#pendaftaran">Pendaftaran</a></li>
+        <li><a href="#donasi">Donasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Memberi Cahaya untuk Negeri</h1>
+      <p>Bersama membangun masa depan yang lebih cerah melalui pendidikan dan kepedulian sosial yang berkelanjutan.</p>
+    </div>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" style="text-align: justify;">
+    <h2 class="section-title">Yayasan Sinar Tunas Bakti Bangsa</h2>
+    <p class="section-subtitle">"Desa Motivator milik kita, Tunas Bangsa Luar Biasa!"</p>
+    <p><strong>Yayasan Sinar Tunas Bakti Bangsa</strong> didirikan pada 3 September 2015 oleh Bapak Doddy Arifin dan berlokasi di Jalan Jingga Raya Blok D1 No. 12, Kelapa Gading, Jakarta Utara. Awalnya, yayasan ini berfokus pada kegiatan sosial bagi lansia kurang mampu di pedesaan melalui bantuan sembako, pengobatan gratis, dan pendampingan.
+Namun, setelah lima tahun, Yayasan Tunas Bangsa menyadari pentingnya pendidikan sebagai kunci pemutus kemiskinan. Banyak anak desa berpotensi tinggi yang terhambat karena faktor ekonomi dan kurangnya informasi tentang program seperti KIP-Kuliah.</p>
+    <br>
+    <p>Sejak itu, yayasan bertransformasi menjadi lembaga yang berfokus pada pemberdayaan pendidikan bagi anak-anak kurang mampu. Kini, yayasan aktif membina dan mendampingi calon mahasiswa dari keluarga pra sejahtera agar dapat melanjutkan pendidikan ke perguruan tinggi melalui program KIP-Kuliah — mulai dari seleksi, pengurusan dokumen, hingga pendampingan selama studi.</p>
+  </section>
+
+  <section id="makna" style="text-align: justify;">
+    <h2 class="section-title">Filosofi Logo <br>Yayasan Sinar Tunas Bakti Bangsa</h2>
+    <img 
+      src="{{ url_for('static', filename='images/logo.png') }}" 
+      alt="Logo Yayasan" 
+      class="logo" 
+      style="max-width: 400px; width: 100%; height: auto; display: block; margin: 20px auto;"
+    >
+    <p><strong>Arti</strong> dan <strong>Makna:</strong></p>
+    <ul>
+      <li>Segitiga sebagai lambang piramida dimana terbentuk kokoh dan disusun rapi dari pembina sampai anggota kebawahanya. </li>
+      <li>Rantai yang melambangkan ikatan dan memutuskan kemiskinan yang membelenggu. </li>
+      <li>Pohon beringin menandakan tunas bangsa terus bercabang dari desa manapun yang ada di indonesia. Daun topi toga yang menandakan tujuan Yayasan Sinar Tunas Bakti Bangsa berfokus kepada pendidikan masyarakat di desa-desa khusus nya yang kurang mampu.</li>
+      <li>Gunung melambangkan pedesaan dimana mayoritas anggota Yayasan Sinar Tunas Bakti Bangsa berasal dari desa-desa pelosok di indonesia. </li>
+      <li>Bola dunia menggambarkan akan suatu keyakinan dan cita-cita bahwa Yayasan Sinar Tunas Bakti Bangsa akan lebih dikenal sampai internasional.</li>
+    </ul>
+  </section>
+
+  <!-- VISI & MISI -->
+  <section id="visi" style="text-align: justify;">
+    <h2 class="section-title">Visi & Misi</h2>
+    <p class="section-subtitle">Komitmen kami untuk masa depan yang lebih baik</p>
+    <p><strong>Visi:</strong> <br>Menjadi Yayasan yang unggul dalam pendidikan untuk memutuskan mata rantai kemiskinan dan menciptakan generasi terbaik di masa depan.</p>
+    <br>
+    <p><strong>Misi:</strong></p>
+    <ul>
+      <li>Menyediakan kesempatan bagi anak-anak desa yang kurang mampu melalui pendampingan program KIP-Kuliah hingga mereka diterima dan berkuliah.</li>
+      <li>Meningkatkan pemahaman warga desa terhadap pentingnya pendidikan dan manfaat jangka panjang dalam memutus rantai kemiskinan.</li>
+      <li>Menyelenggarakan pelatihan soft skills dan life skills seperti kepemimpinan, public speaking, dan motivasi untuk memperkuat mental dan kesiapan akademis.</li>
+      <li>Mencerdaskan anak-anak desa dengan pembinaan, pengarahan, pembimbingan, serta menginformasikan mengenai kuliah gratis melalui jalur KIP-Kuliah, sehingga dapat membantu desa-desa yang tertinggal menjadi lebih produktif, kreatif, dan inovatif.
+</li>
+    </ul>
+  </section>
+
+  <!-- KEGIATAN -->
+  <section id="kegiatan">
+    <h2 class="section-title" style="padding-top: 140px;">Kegiatan Kami</h2>
+    <p class="section-subtitle">Program-program yang kami jalankan sebagai berikut:</p>
+    <div class="activities" style="text-align: justify;">
+      <div class="activity-card">
+        <h3>Seminar dan Pelatihan Beasiswa</h3>
+        <p  style="text-align: justify;">Menyelenggarakan seminar dan pelatihan tentang program KIP-Kuliah dan beasiswa lainnya.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Sosialisasi ke Sekolah-sekolah</h3>
+        <p  style="text-align: justify;">Memberikan informasi secara langsung ke sekolah-sekolah di desa dan daerah tertinggal.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Bimbingan Teknis Pendaftaran</h3>
+        <p  style="text-align: justify;">Memberikan bimbingan teknis pengisian KIP-Kuliah dan pendaftaran.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Pelatihan Soft Skill</h3>
+        <p  style="text-align: justify;">Pelatihan motivasi, presentasi, komunikasi, dan wawancara beasiswa.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Konsultasi Karir dan Jurusan</h3>
+        <p  style="text-align: justify;">Konsultasi karir serta pemilihan jurusan sesuai potensi dan minat siswa.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Pendampingan Mahasiswa Aktif</h3>
+        <p  style="text-align: justify;">Menjalin komunikasi berkala dengan mahasiswa dampingan selama masa kuliah.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Retret dan Pertemuan Tahunan</h3>
+        <p  style="text-align: justify;">Mengadakan pertemuan atau retret tahunan untuk menguatkan hubungan antar anggota.</p>
+      </div>
+      <div class="activity-card">
+        <h3>Kerja Sama Strategis</h3>
+        <p  style="text-align: justify;">Menjalin kerja sama dengan instansi pemerintah, universitas, atau CSR perusahaan.</p>
+      </div>
+    </div>
+  </section>
+    <!-- BERITA / HIGHLIGHT SECTION -->
+    <section id="berita" style="text-align: justify; margin-top: 100px;">
+      <h2 class="section-title">Berita & Kegiatan Terkini</h2>
+      <p class="section-subtitle">Kabar terbaru dari Yayasan Sinar Tunas Bakti Bangsa</p>
+
+      <div class="news-grid">
+        <div class="news-card" data-id="1">
+          <img src="{{ url_for('static', filename='images/berita1.jpeg') }}" alt="Berita 1">
+          <h3>Program Pembinaan Mahasiswa Desa Dimulai</h3>
+          <p>Yayasan resmi memulai program pembinaan untuk calon mahasiswa dari berbagai desa di Indonesia...</p>
+        </div>
+
+        <div class="news-card" data-id="2">
+          <img src="{{ url_for('static', filename='images/berita2.jpeg') }}" alt="Berita 2">
+          <h3>Seminar KIP Kuliah 2025 Diselenggarakan</h3>
+          <p>Acara seminar beasiswa KIP Kuliah kembali digelar dengan antusias peserta dari seluruh penjuru Indonesia...</p>
+        </div>
+
+        <div class="news-card" data-id="3">
+          <img src="{{ url_for('static', filename='images/berita3.jpeg') }}" alt="Berita 3">
+          <h3>Kegiatan Sosial untuk Lansia di Pedesaan</h3>
+          <p>Relawan Yayasan mengadakan kegiatan sosial untuk membantu para lansia di wilayah terpencil...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL BERITA -->
+    <div id="news-modal" class="news-modal">
+      <div class="news-modal-content">
+        <span id="close-news" class="close-news">&times;</span>
+        <h3 id="news-title"></h3>
+        <img id="news-image" src="" alt="News Image">
+        <p id="news-body"></p>
+      </div>
+    </div>
+
+
+  <!-- PENDAFTARAN -->
+  <section id="pendaftaran" style="text-align: justify;">    
+    <form action="/daftar" method="POST" enctype="multipart/form-data" class="pendaftaran-form">
+      <h2 class="section-title-pendaftaran">Pendaftaran Calon Mahasiswa KIP Kuliah</h2>
+      <p class="section-subtitle-pendaftaran">Isi data diri dan unggah dokumen yang diperlukan</p>
+      <!-- Data Pribadi -->
+      <label for="nama_lengkap">Nama Lengkap</label>
+      <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+
+      <label for="tempat_lahir">Tempat Lahir</label>
+      <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+
+      <label for="tanggal_lahir">Tanggal Lahir</label>
+      <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+      <label for="alamat">Alamat Lengkap</label>
+      <input type="text" id="alamat" name="alamat" required>
+
+      <label for="no_hp">Nomor HP</label>
+      <input type="text" id="no_hp" name="no_hp" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <!-- Tambahkan di form pendaftaran -->
+      <label for="nama_ortu">Nama Orang Tua/Wali</label>
+      <input type="text" id="nama_ortu" name="nama_ortu" required>
+
+      <label for="no_hp_ortu">No HP Orang Tua/Wali</label>
+      <input type="text" id="no_hp_ortu" name="no_hp_ortu" required>
+      <!-- Upload Dokumen -->
+      <label for="ktp">KTP (PDF/JPG/PNG)</label>
+      <input type="file" id="ktp" name="ktp" accept=".pdf,.jpg,.jpeg,.png" required>
+      
+      <label for="kk">KK (PDF/JPG/PNG)</label>
+      <input type="file" id="kk" name="kk" accept=".pdf,.jpg,.jpeg,.png" required>
+      
+      <label for="transkrip">Transkrip Nilai / Ijazah (PDF/JPG/PNG)</label>
+      <input type="file" id="transkrip" name="transkrip" accept=".pdf,.jpg,.jpeg,.png">
+
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </section>
+  
+  <!-- CARD / MODAL SUCCESS -->
+  <div id="success-modal" class="success-modal">
+    <div class="success-content">
+      <h3>🎉 Pendaftaran Berhasil!</h3>
+      <p>Data Anda telah berhasil dikirim. Terima kasih telah mendaftar.</p>
+      <button id="close-success">Tutup</button>
+    </div>
+  </div>
+  
+  <!-- LOADING SPINNER -->
+  <div id="loading-spinner" class="loading-spinner">
+    <div class="spinner"></div>
+    <p>Mengirim data...</p>
+  </div>
+
+  <!-- MODAL ERROR -->
+  <div id="error-modal" class="error-modal">
+    <div class="error-content">
+      <h3>❌ Pendaftaran Gagal</h3>
+      <p>Terjadi kesalahan saat mengirim data. Silakan coba lagi.</p>
+      <button id="close-error">Tutup</button>
+    </div>
+  </div>
+
+  <!-- DONASI -->
+  <section id="donasi" style="text-align: center; padding: 60px 20px; margin-top: 80px;">
+    <h2 class="section-title" style="margin-bottom: 15px;">Dukung Gerakan Kami</h2>
+    <p class="section-subtitle" style="margin-bottom: 30px;">Donasi Anda membantu anak-anak desa meraih mimpi melalui pendidikan</p>
+    
+    <div style="max-width: 550px; margin: 0 auto; padding: 35px 25px; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+      <p style="font-size: 1.05em; margin-bottom: 25px; color: #333; line-height: 1.7; text-align: center;">
+        Setiap donasi Anda sangat berarti untuk membantu anak-anak kurang mampu mendapatkan akses pendidikan yang layak. 
+        Bersama kita putuskan rantai kemiskinan melalui pendidikan.
+      </p>
+      
+      <h3 style="color: #2c5f2d; margin: 25px 0 20px; font-size: 1.3em;">Scan QRIS untuk Berdonasi</h3>
+      
+      <div style="display: inline-block; padding: 15px; background: #f8f9fa; border-radius: 10px; margin-bottom: 20px;">
+        <img 
+          src="{{ url_for('static', filename='images/qris.jpg') }}" 
+          alt="QRIS Donasi" 
+          style="max-width: 280px; width: 100%; height: auto; display: block; border: 3px solid #2c5f2d; border-radius: 8px;"
+        >
+      </div>
+      
+      <p style="margin: 20px 0 15px; font-size: 0.95em; color: #666; line-height: 1.6;">
+        Atau transfer ke:<br>
+        <strong style="font-size: 1.05em;">BRI (Bank Rakyat Indonesia): 0439-01-002013-56-5</strong><br>
+        a.n. Yayasan Sinar Tunas Bakti Bangsa
+      </p>
+<!--       
+      <p style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #e0e0e0; font-size: 0.9em; color: #666;">
+        Konfirmasi donasi ke WhatsApp:<br>
+        <a href="https://wa.me/6281234567890" style="color: #2c5f2d; font-weight: bold; text-decoration: none;">0812-3456-7890</a>
+      </p> -->
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" style="margin-bottom: 100px;">
+    <h2 class="section-title">Kontak Kami</h2>
+    <p class="section-subtitle">Mari bergabung bersama kami untuk masa depan yang lebih baik</p>
+    <p>
+      Email: <a href="mailto:info@yayasandummy.org">sinartunasbaktibangsa@gmail.com</a><br><br>
+      Telepon: <a href="tel:+6281234567890">(021) 450 7140</a><br><br>
+      Alamat: Jl. Jingga Raya D1 No.12 Jakarta Utara
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Yayasan Sinar Tunas Bakti Bangsa. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log("🚀 Website Yayasan siap digunakan!");
+
+        // ===== HAMBURGER MENU =====
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("nav-menu");
+        const navLinks = document.querySelectorAll("nav a");
+
+        // Toggle hamburger menu
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        });
+
+        // Close menu saat link diklik
+        navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            });
+        });
+
+        // Close menu saat klik di luar
+        document.addEventListener("click", (e) => {
+            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            }
+        });
+
+        // Efek transisi antar section
+        const sections = document.querySelectorAll("section");
+
+        // Fungsi untuk menambahkan animasi muncul
+        function revealSection(section) {
+            sections.forEach(sec => sec.classList.remove("active-section"));
+            section.classList.add("active-section");
+        }
+
+        // Smooth scroll + transisi
+        navLinks.forEach(link => {
+            link.addEventListener("click", e => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute("href"));
+                if (!target) return;
+
+                // Tambahkan efek fade
+                document.body.classList.add("fade-out");
+                setTimeout(() => {
+                    target.scrollIntoView({ behavior: "smooth" });
+                    document.body.classList.remove("fade-out");
+                    revealSection(target);
+                }, 300);
+            });
+        });
+
+        // ======== MODAL BERITA ========
+        const newsData = {
+          1: {
+            title: "Program Pembinaan Mahasiswa Desa Dimulai",
+            img: "{{ url_for('static', filename='images/berita1.jpeg') }}",
+            body: "Pada awal tahun 2025, Yayasan Sinar Tunas Bakti Bangsa meluncurkan program pembinaan bagi siswa berprestasi dari desa-desa terpencil. Program ini mencakup pendampingan akademik, pengenalan kampus, dan pelatihan keterampilan hidup untuk mempersiapkan mereka memasuki dunia perkuliahan."
+          },
+          2: {
+            title: "Seminar KIP Kuliah 2025 Diselenggarakan",
+            img: "{{ url_for('static', filename='images/berita2.jpeg') }}",
+            body: "Yayasan kembali menggelar seminar KIP Kuliah dengan tujuan memberikan informasi dan motivasi kepada calon penerima beasiswa di seluruh Indonesia. Acara ini dihadiri lebih dari 300 peserta dari berbagai daerah dan menghadirkan pembicara inspiratif dari kalangan akademisi."
+          },
+          3: {
+            title: "Kegiatan Sosial untuk Lansia di Pedesaan",
+            img: "{{ url_for('static', filename='images/berita3.jpeg') }}",
+            body: "Sebagai bentuk kepedulian sosial, relawan yayasan mengadakan kegiatan berbagi sembako, pemeriksaan kesehatan gratis, dan pendampingan psikologis bagi para lansia di pedesaan. Program ini bertujuan meningkatkan kesejahteraan dan rasa kebersamaan antar generasi."
+          }
+        };
+        document.querySelectorAll(".news-card").forEach(card => {
+          card.addEventListener("click", () => {
+            const id = card.getAttribute("data-id");
+            const modal = document.getElementById("news-modal");
+            document.getElementById("news-title").textContent = newsData[id].title;
+            document.getElementById("news-image").src = newsData[id].img;
+            document.getElementById("news-body").textContent = newsData[id].body;
+            modal.style.display = "flex";
+          });
+        });
+
+        document.getElementById("close-news").addEventListener("click", () => {
+          document.getElementById("news-modal").style.display = "none";
+        });
+
+        window.addEventListener("click", (e) => {
+          const modal = document.getElementById("news-modal");
+          if (e.target === modal) modal.style.display = "none";
+        });
+
+        // Partikel latar (efek lembut)
+        function createParticles() {
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animation = `float ${10 + Math.random() * 20}s ease-in-out infinite`;
+                particle.style.animationDelay = Math.random() * 5 + 's';
+                document.body.appendChild(particle);
+            }
+        }
+        createParticles();
+
+        // Saat load pertama, beri efek pada section pertama
+        revealSection(document.querySelector(".hero"));
+
+        // ===== FORM PENDAFTARAN =====
+        const form = document.querySelector(".pendaftaran-form");
+        const modal = document.getElementById("success-modal");
+        const closeBtn = document.getElementById("close-success");
+
+        if (form) {
+          const loading = document.getElementById("loading-spinner");
+          const errorModal = document.getElementById("error-modal");
+          const closeError = document.getElementById("close-error");
+
+          form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(form);
+            loading.style.display = "flex"; // tampilkan spinner
+
+            try {
+              const res = await fetch(form.action, {
+                method: "POST",
+                body: formData
+              });
+
+              loading.style.display = "none"; // sembunyikan spinner
+
+              if (res.ok) {
+                form.reset();
+                modal.style.display = "flex"; // modal sukses
+              } else {
+                errorModal.style.display = "flex"; // modal gagal
+              }
+            } catch (err) {
+              console.error(err);
+              loading.style.display = "none";
+              errorModal.style.display = "flex";
+            }
+          });
+
+          // tombol tutup modal sukses & error
+          closeBtn.addEventListener("click", () => modal.style.display = "none");
+          closeError.addEventListener("click", () => errorModal.style.display = "none");
+
+          // klik di luar modal menutup
+          window.addEventListener("click", (e) => {
+            if (e.target === modal) modal.style.display = "none";
+            if (e.target === errorModal) errorModal.style.display = "none";
+          });
+        }
+
+    });
+
+    // ✅ Scroll otomatis ke hero saat halaman direfresh
+    window.addEventListener("load", () => {
+        const heroSection = document.querySelector(".hero");
+        if (heroSection) {
+            setTimeout(() => {
+                heroSection.scrollIntoView({ behavior: "smooth" });
+            }, 300);
+        }
+    });
+    </script>
+
+</body>
+</html>
